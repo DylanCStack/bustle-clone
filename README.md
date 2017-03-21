@@ -1,7 +1,10 @@
 # Bustle-clone
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+## Created by Xia Amendolara and Dylan Stackhouse
+
+## Description
+
+  This web application emulates the website [Bustle](https://www.bustle.com/p/this-new-sorting-hat-fan-theory-clears-up-so-much-confusion-about-the-houses-45870). It was made using the JavaScript framework Ember.
 
 ## Prerequisites
 
@@ -39,10 +42,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-Specify what it takes to deploy your app.
-
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -51,3 +50,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## Licensing
+ This application features MIT licensing.
+
+Copyright &copy; 2017 **Xia Amendolara and Dylan Stackhouse** All Rights Reserved.
