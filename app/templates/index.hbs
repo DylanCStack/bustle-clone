@@ -1,0 +1,13 @@
+<!-- {{outlet}} -->
+<div id="featured">
+  <!-- {{display featured articles}} -->
+</div>
+<div id="recent-articles">
+  <div class="header">
+    <h2>Today's Top Stories</h2>
+    <p><!-- display today's date --></p>
+  </div>
+  {{#each model as |article|}}
+    {{article-tile article=article}}
+  {{/each}}
+</div>

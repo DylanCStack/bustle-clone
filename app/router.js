@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('category');
+  this.route('author');
 });
 
 export default Router;
