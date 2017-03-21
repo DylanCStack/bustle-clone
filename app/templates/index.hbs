@@ -3,6 +3,7 @@
   <!-- {{display featured articles}} -->
 </div>
 <div id="recent-articles">
+  {{compose-article saveArticle="saveArticle"}}
   <div class="header">
     <h2>Today's Top Stories</h2>
     <p><!-- display today's date --></p>
@@ -10,4 +11,5 @@
   {{#each model as |article|}}
     {{article-tile article=article}}
   {{/each}}
+
 </div>

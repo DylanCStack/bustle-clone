@@ -5,7 +5,6 @@ export default DS.Model.extend({
   title: DS.attr(),
   text: DS.attr(),
   teaser: Ember.computed("text", function(){
-    console.log(this.get("text"));
     return this.get("text").substring(0,140) + "...";
   }),
   date: DS.attr(),
